@@ -29,6 +29,14 @@ namespace лб_6 {
             int zn3 = zn1 + zn2;
             result.Text = zn3.ToString();
         }
+
+        private void div_Click(object sender, RoutedEventArgs e)
+        {
+            double zn1 = Convert.ToDouble(z1.Text);
+            double zn2 = Convert.ToDouble(z2.Text);
+            double zn3 = zn1 / zn2;
+            result.Text = zn3.ToString();
+        }
     }
 
 }
