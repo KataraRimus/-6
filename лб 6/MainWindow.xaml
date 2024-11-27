@@ -12,7 +12,7 @@
         <TextBox x:Name="result" HorizontalAlignment="Left" Height="78" Margin="239,274,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="274" FontSize="18" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
         <Button x:Name="sum" Content="+" HorizontalAlignment="Left" Height="49" Margin="66,197,0,0" VerticalAlignment="Top" Width="68"/>
         <Button x:Name="def" Content="-" HorizontalAlignment="Left" Height="49" Margin="196,197,0,0" VerticalAlignment="Top" Width="68"/>
-        <Button x:Name="div" Content="/" HorizontalAlignment="Left" Height="49" Margin="470,188,0,0" VerticalAlignment="Top" Width="68" />
+        <Button x:Name="div" Content="/" HorizontalAlignment="Left" Height="49" Margin="470,188,0,0" VerticalAlignment="Top" Width="68" Click="div_Click" />
         <Button x:Name="mul" Content="*" HorizontalAlignment="Left" Height="49" Margin="601,188,0,0" VerticalAlignment="Top" Width="68"/>
 
     </Grid>
