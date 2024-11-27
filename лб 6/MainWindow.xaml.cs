@@ -21,5 +21,13 @@ namespace лб_6 {
         public MainWindow() {
             InitializeComponent();
         }
+
+        private void def_Click(object sender, RoutedEventArgs e) {
+            
+            int zn1 = Convert.ToInt32(z1.Text);
+            int zn2 = Convert.ToInt32(z2.Text);
+            int zn3 = zn1 - zn2;
+            result.Text = zn3.ToString();
+        }
     }
 }
