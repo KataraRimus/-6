@@ -22,4 +22,5 @@ namespace лб_6 {
             InitializeComponent();
         }
     }
+
 }
