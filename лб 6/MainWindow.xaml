@@ -13,7 +13,7 @@
         <Button x:Name="sum" Content="+" HorizontalAlignment="Left" Height="49" Margin="66,197,0,0" VerticalAlignment="Top" Width="68"/>
         <Button x:Name="def" Content="-" HorizontalAlignment="Left" Height="49" Margin="196,197,0,0" VerticalAlignment="Top" Width="68"/>
         <Button x:Name="div" Content="/" HorizontalAlignment="Left" Height="49" Margin="470,188,0,0" VerticalAlignment="Top" Width="68" />
-        <Button x:Name="mul" Content="*" HorizontalAlignment="Left" Height="49" Margin="601,188,0,0" VerticalAlignment="Top" Width="68"/>
+        <Button x:Name="mul" Content="*" HorizontalAlignment="Left" Height="49" Margin="601,188,0,0" VerticalAlignment="Top" Width="68" Click="mul_Click"/>
 
     </Grid>
 </Window>
